@@ -3,7 +3,7 @@ cask "envy" do
   name "envy"
   desc ""
   homepage ""
-  version "0.1.22"
+  version "0.1.23"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "envy" do
     on_intel do
       url "https://github.com/front-matter/envy/releases/download/v#{version}/envy_Darwin_x86_64.tar.gz",
         verified: "github.com/front-matter/envy"
-      sha256 "4fbd726c97620cd9861405d0f1e319777b5760ad7eca6caec324870065504dc9"
+      sha256 "24443aac4004da82ed452995fe80765b349e406dc6b5340daf8b93f87cfb3ed2"
     end
     on_arm do
       url "https://github.com/front-matter/envy/releases/download/v#{version}/envy_Darwin_arm64.tar.gz",
         verified: "github.com/front-matter/envy"
-      sha256 "f80a251740828209048a3e73bc338c40b371b4ce4cc35382a1af099366e07466"
+      sha256 "6226bcfa23a477e0e761455fb32c95fc21b50b3e51c2271ab1e758a7800765b6"
     end
   end
 
@@ -28,12 +28,12 @@ cask "envy" do
     on_intel do
       url "https://github.com/front-matter/envy/releases/download/v#{version}/envy_Linux_x86_64.tar.gz",
         verified: "github.com/front-matter/envy"
-      sha256 "12c027462b60cc9300a57cad3bfcf598cf17ea3faa4df83c93abc61d713d75fe"
+      sha256 "981f896d40fbb76286f479f353ddad804d353eafe2b8fa755d823212409c5f95"
     end
     on_arm do
       url "https://github.com/front-matter/envy/releases/download/v#{version}/envy_Linux_arm64.tar.gz",
         verified: "github.com/front-matter/envy"
-      sha256 "4437fd3e5ba5ff5ca69e04ec81ffd95eeee462c6246e758ab8676ad2c6286aae"
+      sha256 "bdbefe9a7189dd056a036c63daaa6d680dde721cb53fdfca725bce1f75a5bf7c"
     end
   end
 
